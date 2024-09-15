@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coin Switch</title>
     <style>
-        *{
+        * {
             box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
         }
-        .header,.header2{
+        .header, .header2 {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding:8px;
-            margin: 0px;
+            padding: 8px;
+            margin: 0;
         }
         .header img {
             margin-left: 38px;
-            margin-bottom: 20px;
             height: 42px;
             width: auto;
         }
-        .header2{
+        .header2 {
             display: flex;
-            justify-content: space-evenly;
             gap: 80px;
-            margin: 0px 20px;
             font-family: Arial, Helvetica, sans-serif;
         }
-        .log{
+       
+        .log {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -41,24 +41,29 @@
             height: 50px;
             width: 150px;
             border-radius: 10px;
-            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
         }
+       
         .content {
             padding: 40px;
-            background-color: #1547d3;
+            background-color: #5079ec;
             background: 
-                linear-gradient(to top, #dbe0f1 0%, rgba(255, 255, 255, 0) 100%),
-                repeating-linear-gradient(0deg, transparent, transparent 39px, #DDDEE1 39px, #DDDEE1 40px),
-                repeating-linear-gradient(90deg, transparent, transparent 39px, #DDDEE1 39px, #DDDEE1 40px);
-            background-size: 100% 100%, 40px 40px, 40px 40px;
-            transition: background 0.5s ease-in-out;
+                linear-gradient(to top, rgba(103, 214, 234, 0) 70%, #c5d3f3 100%),
+                repeating-linear-gradient(0deg, transparent, transparent 59px, #eaeaec 59px, #f4f4f5 60px),
+                repeating-linear-gradient(90deg, transparent, transparent 59px, #f4f4f5 59px, #ffffff 60px);
+            background-size: 100% 100%, 60px 60px, 60px 60px;
+            position: relative;
             border-radius: 20px;
-
         }
+
+
+        
         .content:hover {
             background-color: #b8bbca;
         }
-        .img{
+
+        .img {
             padding-top: 25px;
             margin: 25px 130px;
             margin-bottom: 50px;
@@ -81,8 +86,8 @@
 </head>
 <body>
     <header class="header">
-        <div >
-            <div><img src="https://coinswitch.co/_next/static/media/logo.01525825.svg" alt="Coin Switch"></div>
+        <div>
+            <img src="https://coinswitch.co/_next/static/media/logo.01525825.svg" alt="Coin Switch"></div>
         </div>
         <div class="header2">
             <div>Products</div>
